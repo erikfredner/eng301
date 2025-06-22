@@ -1,2 +1,3 @@
-# eng301
-English 301, "Ways of Reading"
+# Ways of Reading
+
+Materials for English 301 "Ways of Reading."
