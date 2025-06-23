@@ -1,0 +1,1073 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Erik Fredner" />
+  <title>Ways of Reading</title>
+  <style>
+    html {
+      font-family: sans-serif;
+      font-size: 12pt;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: blue;
+    }
+    a:visited {
+      color: blue;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Ways of Reading</h1>
+<p class="subtitle">ENG 301</p>
+<p class="author">Erik Fredner</p>
+</header>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#course-details" id="toc-course-details"><span
+class="toc-section-number">1</span> Course Details</a></li>
+<li><a href="#land-acknowledgment" id="toc-land-acknowledgment"><span
+class="toc-section-number">2</span> Land Acknowledgment</a></li>
+<li><a href="#description" id="toc-description"><span
+class="toc-section-number">3</span> Description</a></li>
+<li><a href="#learning-goals" id="toc-learning-goals"><span
+class="toc-section-number">4</span> Learning Goals</a></li>
+<li><a href="#materials" id="toc-materials"><span
+class="toc-section-number">5</span> Materials</a>
+<ul>
+<li><a href="#books-to-buy" id="toc-books-to-buy"><span
+class="toc-section-number">5.1</span> Books to buy</a></li>
+</ul></li>
+<li><a href="#schedule" id="toc-schedule"><span
+class="toc-section-number">6</span> Schedule</a>
+<ul>
+<li><a href="#deadlines" id="toc-deadlines"><span
+class="toc-section-number">6.1</span> Deadlines</a></li>
+<li><a href="#m1" id="toc-m1"><span
+class="toc-section-number">6.2</span> 2025-09-25</a></li>
+<li><a href="#m2" id="toc-m2"><span
+class="toc-section-number">6.3</span> 2025-09-30</a></li>
+<li><a href="#m3" id="toc-m3"><span
+class="toc-section-number">6.4</span> 2025-10-02</a></li>
+<li><a href="#m4" id="toc-m4"><span
+class="toc-section-number">6.5</span> 2025-10-07</a></li>
+<li><a href="#m5" id="toc-m5"><span
+class="toc-section-number">6.6</span> 2025-10-09</a></li>
+<li><a href="#m6" id="toc-m6"><span
+class="toc-section-number">6.7</span> 2025-10-14</a></li>
+<li><a href="#m7" id="toc-m7"><span
+class="toc-section-number">6.8</span> 2025-10-16</a></li>
+<li><a href="#m8" id="toc-m8"><span
+class="toc-section-number">6.9</span> 2025-10-21</a></li>
+<li><a href="#m9" id="toc-m9"><span
+class="toc-section-number">6.10</span> 2025-10-23</a></li>
+<li><a href="#m10" id="toc-m10"><span
+class="toc-section-number">6.11</span> 2025-10-28</a></li>
+<li><a href="#m11" id="toc-m11"><span
+class="toc-section-number">6.12</span> 2025-10-30</a></li>
+<li><a href="#m12" id="toc-m12"><span
+class="toc-section-number">6.13</span> 2025-11-04</a></li>
+<li><a href="#m13" id="toc-m13"><span
+class="toc-section-number">6.14</span> 2025-11-06</a></li>
+<li><a href="#m14" id="toc-m14"><span
+class="toc-section-number">6.15</span> 2025-11-13</a></li>
+<li><a href="#m15" id="toc-m15"><span
+class="toc-section-number">6.16</span> 2025-11-18</a></li>
+<li><a href="#m16" id="toc-m16"><span
+class="toc-section-number">6.17</span> 2025-11-20</a></li>
+<li><a href="#m17" id="toc-m17"><span
+class="toc-section-number">6.18</span> 2025-11-25</a></li>
+<li><a href="#m18" id="toc-m18"><span
+class="toc-section-number">6.19</span> 2025-12-02</a></li>
+<li><a href="#m19" id="toc-m19"><span
+class="toc-section-number">6.20</span> 2025-12-04</a></li>
+</ul></li>
+<li><a href="#grades" id="toc-grades"><span
+class="toc-section-number">7</span> Grades</a>
+<ul>
+<li><a href="#course" id="toc-course"><span
+class="toc-section-number">7.1</span> Course</a></li>
+<li><a href="#letters" id="toc-letters"><span
+class="toc-section-number">7.2</span> Letters</a></li>
+</ul></li>
+<li><a href="#assignments" id="toc-assignments"><span
+class="toc-section-number">8</span> Assignments</a>
+<ul>
+<li><a href="#participation" id="toc-participation"><span
+class="toc-section-number">8.1</span> Participation</a></li>
+<li><a href="#reading-quizzes" id="toc-reading-quizzes"><span
+class="toc-section-number">8.2</span> Reading quizzes</a></li>
+<li><a href="#essays" id="toc-essays"><span
+class="toc-section-number">8.3</span> Essays</a></li>
+</ul></li>
+<li><a href="#academic-misconduct" id="toc-academic-misconduct"><span
+class="toc-section-number">9</span> Academic Misconduct</a>
+<ul>
+<li><a href="#generative-artificial-intelligence"
+id="toc-generative-artificial-intelligence"><span
+class="toc-section-number">9.1</span> Generative Artificial
+Intelligence</a></li>
+</ul></li>
+<li><a href="#communication" id="toc-communication"><span
+class="toc-section-number">10</span> Communication</a></li>
+<li><a href="#equity" id="toc-equity"><span
+class="toc-section-number">11</span> Equity</a>
+<ul>
+<li><a href="#accessibility" id="toc-accessibility"><span
+class="toc-section-number">11.1</span> Accessibility</a></li>
+<li><a href="#health" id="toc-health"><span
+class="toc-section-number">11.2</span> Health</a></li>
+<li><a href="#disability-access-services"
+id="toc-disability-access-services"><span
+class="toc-section-number">11.3</span> Disability Access
+Services</a></li>
+<li><a href="#counseling-and-psychological-services"
+id="toc-counseling-and-psychological-services"><span
+class="toc-section-number">11.4</span> Counseling and Psychological
+Services</a></li>
+<li><a href="#title-ix" id="toc-title-ix"><span
+class="toc-section-number">11.5</span> Title IX</a></li>
+<li><a href="#religious-observance" id="toc-religious-observance"><span
+class="toc-section-number">11.6</span> Religious Observance</a></li>
+</ul></li>
+<li><a href="#resources" id="toc-resources"><span
+class="toc-section-number">12</span> Resources</a>
+<ul>
+<li><a href="#academic-success-center"
+id="toc-academic-success-center"><span
+class="toc-section-number">12.1</span> Academic Success Center</a></li>
+<li><a href="#libraries" id="toc-libraries"><span
+class="toc-section-number">12.2</span> Libraries</a></li>
+</ul></li>
+<li><a href="#acknowledgments" id="toc-acknowledgments"><span
+class="toc-section-number">13</span> Acknowledgments</a></li>
+</ul>
+</nav>
+<h2 data-number="1" id="course-details"><span
+class="header-section-number">1</span> Course Details</h2>
+<table>
+<tbody>
+<tr>
+<td>Professor</td>
+<td>Erik Fredner (he/him)</td>
+</tr>
+<tr>
+<td>Email</td>
+<td><a href="mailto:erik.fredner@oregonstate.edu"
+class="email">erik.fredner@oregonstate.edu</a></td>
+</tr>
+<tr>
+<td>Classroom</td>
+<td>tk</td>
+</tr>
+<tr>
+<td>Office</td>
+<td>tk</td>
+</tr>
+<tr>
+<td>Office Hours</td>
+<td>tk</td>
+</tr>
+<tr>
+<td>Website</td>
+<td>tk <a href="https://erikfredner.github.io/eng301"
+class="uri">https://erikfredner.github.io/eng301</a></td>
+</tr>
+<tr>
+<td>Updated</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 data-number="2" id="land-acknowledgment"><span
+class="header-section-number">2</span> Land Acknowledgment</h2>
+<p>Oregon State University recognizes the impact that its land grant
+history had on Indigenous communities in Oregon. Through the Morrill Act
+of 1862, which established land grant universities in the United States,
+the federal government seized nearly 11 million acres of land from 250
+sovereign tribal nations, with little or no compensation.</p>
+<p>In 1868, the state legislature designated Corvallis College as
+Oregon’s land grant institution. Soon after, Oregon received 90,000
+acres of federal lands — taken from the Klamath, Coos, Lower Umpqua,
+Siuslaw and Coquille people — to be sold to create an endowment
+supporting the growth of the new college, which would become Oregon
+State University.</p>
+<p>Oregon State University in Corvallis is located within the
+traditional homelands of the Marys River or Ampinefu Band of Kalapuya.
+Following the Willamette Valley Treaty of 1855, Kalapuya people were
+forcibly removed to reservations in Western Oregon. Today, living
+descendants of these people are part of the Confederated Tribes of Grand
+Ronde Community of Oregon and the Confederated Tribes of the Siletz
+Indians. Indigenous people are valued, contributing members of the
+Oregon State community and represent multiple sovereign tribes among
+students, faculty, staff and alumni.</p>
+<p>Oregon State University accepts its responsibility for understanding
+the continuing impact of that history on these communities. Oregon State
+is committed — in the spirit of self-reflection, learning,
+reconciliation and partnership — to ensure that this institution of
+higher learning will be of enduring benefit, not only to the state of
+Oregon, but also to the people on whose ancestral lands it is now
+located.</p>
+<p>For more information, see <a
+href="https://oregonstate.edu/land-acknowledgment">OSU’s Land
+Acknowledgment</a>.</p>
+<h2 data-number="3" id="description"><span
+class="header-section-number">3</span> Description</h2>
+<p>What’s the difference between reading a book for pleasure and reading
+it for a class? What kinds of skills are necessary for upper-level work
+as an English major? What exactly is literary criticism? Pursue these
+questions by studying a selection of texts paired with works providing
+historical and critical context. Learn how to think and write like a
+literary critic by reading carefully, discussing these works in class,
+and writing analytical essays.</p>
+<p>See the <a
+href="https://liberalarts.oregonstate.edu/wlf/ma-0/undergraduate-course-descriptions">course
+catalog</a>.</p>
+<h2 data-number="4" id="learning-goals"><span
+class="header-section-number">4</span> Learning Goals</h2>
+<p>By the end of this course, students will be able to…</p>
+<ul>
+<li>Differentiate literary criticism and literary history</li>
+<li>Characterize the different types of reading that define literary
+studies</li>
+<li>Write close readings</li>
+<li>Use <a href="https://www.zotero.org/">Zotero</a></li>
+</ul>
+<h2 data-number="5" id="materials"><span
+class="header-section-number">5</span> Materials</h2>
+<ul>
+<li>To every class, please bring…
+<ul>
+<li>pen and paper</li>
+<li>a computer or tablet</li>
+</ul></li>
+<li>Many readings will be available on <a
+href="https://canvas.oregonstate.edu/">Canvas</a>.</li>
+</ul>
+<h3 data-number="5.1" id="books-to-buy"><span
+class="header-section-number">5.1</span> Books to buy</h3>
+<ul>
+<li>Buy copies of the editions below.</li>
+<li>If you buy books locally:
+<ul>
+<li>Options include <a
+href="https://osubeaverstore.com/course-materials.html">the OSU
+bookstore</a>, <a href="https://www.grassrootsbookstore.com/">Grass
+Roots</a>, and <a href="https://bookbin.com/">The Book Bin</a>.</li>
+</ul></li>
+<li>If you order online:
+<ul>
+<li>Consider <a href="https://bookshop.org/">Bookshop.org</a> and <a
+href="https://www.betterworldbooks.com/">Better World Books</a></li>
+<li>Search for the ISBN to ensure that you buy the correct edition.</li>
+</ul></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Text</th>
+<th style="text-align: left;">ISBN</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><span class="citation"
+data-cites="beattySellout2015">Paul Beatty<a href="#fn1"
+class="footnote-ref" id="fnref1"
+role="doc-noteref"><sup>1</sup></a></span></td>
+<td style="text-align: left;">9781250808240</td>
+</tr>
+</tbody>
+</table>
+<h2 data-number="6" id="schedule"><span
+class="header-section-number">6</span> Schedule</h2>
+<p>The schedule lists the major topics to be covered in each meeting as
+well as required and optional readings.</p>
+<h3 data-number="6.1" id="deadlines"><span
+class="header-section-number">6.1</span> Deadlines</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Assignment</th>
+<th style="text-align: left;">Due date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Essay 1</td>
+<td style="text-align: left;">2025-10-01</td>
+</tr>
+</tbody>
+</table>
+<h3 data-number="6.2" id="m1"><span
+class="header-section-number">6.2</span> 2025-09-25</h3>
+<p>Course overview</p>
+<h4 data-number="6.2.1" id="required"><span
+class="header-section-number">6.2.1</span> Required</h4>
+<h4 data-number="6.2.2" id="optional"><span
+class="header-section-number">6.2.2</span> Optional</h4>
+<h3 data-number="6.3" id="m2"><span
+class="header-section-number">6.3</span> 2025-09-30</h3>
+<p>Reading for pleasure vs. reading critically</p>
+<h4 data-number="6.3.1" id="required-1"><span
+class="header-section-number">6.3.1</span> Required</h4>
+<ul>
+<li><span class="citation" data-cites="adlerHowReadBook2014">Mortimer
+Jerome Adler and Charles Lincoln Van Doren<a href="#fn2"
+class="footnote-ref" id="fnref2"
+role="doc-noteref"><sup>2</sup></a></span></li>
+<li><span class="citation"
+data-cites="nabokovGoodReadersGood1980">Vladimir Vladimirovich Nabokov<a
+href="#fn3" class="footnote-ref" id="fnref3"
+role="doc-noteref"><sup>3</sup></a></span></li>
+<li>Woolf, “How should one read a book?”</li>
+</ul>
+<h4 data-number="6.3.2" id="optional-1"><span
+class="header-section-number">6.3.2</span> Optional</h4>
+<ul>
+<li><span class="citation"
+data-cites="rothmanWhatsHappeningReading2025">Joshua Rothman<a
+href="#fn4" class="footnote-ref" id="fnref4"
+role="doc-noteref"><sup>4</sup></a></span></li>
+<li><span class="citation"
+data-cites="luptonReadingMakingTime2018">Christina Lupton<a href="#fn5"
+class="footnote-ref" id="fnref5"
+role="doc-noteref"><sup>5</sup></a></span></li>
+</ul>
+<h3 data-number="6.4" id="m3"><span
+class="header-section-number">6.4</span> 2025-10-02</h3>
+<p>Not Reading</p>
+<h4 data-number="6.4.1" id="required-2"><span
+class="header-section-number">6.4.1</span> Required</h4>
+<ul>
+<li>ATUS material on reading in the US</li>
+<li>New Yorker on AI and reading</li>
+<li>Wharton “Xingu”</li>
+</ul>
+<h4 data-number="6.4.2" id="optional-2"><span
+class="header-section-number">6.4.2</span> Optional</h4>
+<ul>
+<li><span class="citation" data-cites="guilloryCloseReading2024">John
+Guillory<a href="#fn6" class="footnote-ref" id="fnref6"
+role="doc-noteref"><sup>6</sup></a></span></li>
+</ul>
+<h3 data-number="6.5" id="m4"><span
+class="header-section-number">6.5</span> 2025-10-07</h3>
+<p>What is close reading?</p>
+<h4 data-number="6.5.1" id="required-3"><span
+class="header-section-number">6.5.1</span> Required</h4>
+<ul>
+<li><span class="citation" data-cites="sinykinIntroduction2025">Daniel
+Sinykin and Johanna Winant<a href="#fn7" class="footnote-ref"
+id="fnref7" role="doc-noteref"><sup>7</sup></a></span></li>
+</ul>
+<h4 data-number="6.5.2" id="optional-3"><span
+class="header-section-number">6.5.2</span> Optional</h4>
+<ul>
+<li><span class="citation"
+data-cites="guilloryCloseReading2024">Guillory<a href="#fn8"
+class="footnote-ref" id="fnref8"
+role="doc-noteref"><sup>8</sup></a></span></li>
+</ul>
+<h3 data-number="6.6" id="m5"><span
+class="header-section-number">6.6</span> 2025-10-09</h3>
+<p>Paraphrase and quotation</p>
+<h4 data-number="6.6.1" id="required-4"><span
+class="header-section-number">6.6.1</span> Required</h4>
+<ul>
+<li><span class="citation" data-cites="yeatsSchoolChildren1997">W. B.
+Yeats<a href="#fn9" class="footnote-ref" id="fnref9"
+role="doc-noteref"><sup>9</sup></a></span></li>
+<li><span class="citation"
+data-cites="brooksHeresyParaphrase1947">Cleanth Brooks<a href="#fn10"
+class="footnote-ref" id="fnref10"
+role="doc-noteref"><sup>10</sup></a></span></li>
+</ul>
+<h4 data-number="6.6.2" id="optional-4"><span
+class="header-section-number">6.6.2</span> Optional</h4>
+<h3 data-number="6.7" id="m6"><span
+class="header-section-number">6.7</span> 2025-10-14</h3>
+<p>Allegory</p>
+<h4 data-number="6.7.1" id="required-5"><span
+class="header-section-number">6.7.1</span> Required</h4>
+<ul>
+<li>Hawthorne, “Young Goodman Brown”</li>
+<li>Hawthorne romance vs. novel</li>
+</ul>
+<h4 data-number="6.7.2" id="optional-5"><span
+class="header-section-number">6.7.2</span> Optional</h4>
+<h3 data-number="6.8" id="m7"><span
+class="header-section-number">6.8</span> 2025-10-16</h3>
+<p>Genre</p>
+<h4 data-number="6.8.1" id="required-6"><span
+class="header-section-number">6.8.1</span> Required</h4>
+<ul>
+<li>Poe, “Murders in the Rue Morgue”</li>
+<li>Poe essay on the short story</li>
+<li>Christie on detective fiction</li>
+</ul>
+<h4 data-number="6.8.2" id="optional-6"><span
+class="header-section-number">6.8.2</span> Optional</h4>
+<ul>
+<li>Jameson on genre as a contract</li>
+</ul>
+<h3 data-number="6.9" id="m8"><span
+class="header-section-number">6.9</span> 2025-10-21</h3>
+<p>Trust no one? Unreliable narrators</p>
+<h4 data-number="6.9.1" id="required-7"><span
+class="header-section-number">6.9.1</span> Required</h4>
+<ul>
+<li>James, “Turn of the Screw”</li>
+</ul>
+<h4 data-number="6.9.2" id="optional-7"><span
+class="header-section-number">6.9.2</span> Optional</h4>
+<ul>
+<li>James, art of fiction</li>
+</ul>
+<h3 data-number="6.10" id="m9"><span
+class="header-section-number">6.10</span> 2025-10-23</h3>
+<p>Irony</p>
+<h4 data-number="6.10.1" id="required-8"><span
+class="header-section-number">6.10.1</span> Required</h4>
+<ul>
+<li>Chopin, The Story of an Hour</li>
+</ul>
+<h4 data-number="6.10.2" id="optional-8"><span
+class="header-section-number">6.10.2</span> Optional</h4>
+<h3 data-number="6.11" id="m10"><span
+class="header-section-number">6.11</span> 2025-10-28</h3>
+<p>Illegibility</p>
+<h4 data-number="6.11.1" id="required-9"><span
+class="header-section-number">6.11.1</span> Required</h4>
+<ul>
+<li>Melville, “Bartleby, the Scrivener”</li>
+</ul>
+<h4 data-number="6.11.2" id="optional-9"><span
+class="header-section-number">6.11.2</span> Optional</h4>
+<ul>
+<li>Agamben on Bartleby</li>
+</ul>
+<h3 data-number="6.12" id="m11"><span
+class="header-section-number">6.12</span> 2025-10-30</h3>
+<p>Authorial intention</p>
+<h4 data-number="6.12.1" id="required-10"><span
+class="header-section-number">6.12.1</span> Required</h4>
+<ul>
+<li>Stockton, “The Lady, or the Tiger?”</li>
+<li>Wimsatt and Beardsley, “Intentional Fallacy”</li>
+</ul>
+<h4 data-number="6.12.2" id="optional-10"><span
+class="header-section-number">6.12.2</span> Optional</h4>
+<ul>
+<li>Barthes, “Death of the Author”</li>
+</ul>
+<h3 data-number="6.13" id="m12"><span
+class="header-section-number">6.13</span> 2025-11-04</h3>
+<p>Icebergs</p>
+<h4 data-number="6.13.1" id="required-11"><span
+class="header-section-number">6.13.1</span> Required</h4>
+<ul>
+<li>Hemingway, “Hills like white elephants”</li>
+</ul>
+<h4 data-number="6.13.2" id="optional-11"><span
+class="header-section-number">6.13.2</span> Optional</h4>
+<h3 data-number="6.14" id="m13"><span
+class="header-section-number">6.14</span> 2025-11-06</h3>
+<p>Presence of absence</p>
+<h4 data-number="6.14.1" id="required-12"><span
+class="header-section-number">6.14.1</span> Required</h4>
+<ul>
+<li>Morrison, Playing in the dark</li>
+<li>Larsen, <em>Passing</em></li>
+</ul>
+<h4 data-number="6.14.2" id="optional-12"><span
+class="header-section-number">6.14.2</span> Optional</h4>
+<ul>
+<li>Du Bois, <em>Souls</em> and “double-consciousness”</li>
+</ul>
+<h3 data-number="6.15" id="m14"><span
+class="header-section-number">6.15</span> 2025-11-13</h3>
+<p>Women read, but often have not been able to read about women</p>
+<h4 data-number="6.15.1" id="required-13"><span
+class="header-section-number">6.15.1</span> Required</h4>
+<ul>
+<li>Gilman, “Yellow Wall-Paper”</li>
+</ul>
+<h4 data-number="6.15.2" id="optional-13"><span
+class="header-section-number">6.15.2</span> Optional</h4>
+<h3 data-number="6.16" id="m15"><span
+class="header-section-number">6.16</span> 2025-11-18</h3>
+<p>Queer traces</p>
+<h4 data-number="6.16.1" id="required-14"><span
+class="header-section-number">6.16.1</span> Required</h4>
+<ul>
+<li>Cather, “Paul’s Case”</li>
+<li>Sedgwick <em>Epistemology</em></li>
+</ul>
+<h4 data-number="6.16.2" id="optional-14"><span
+class="header-section-number">6.16.2</span> Optional</h4>
+<h3 data-number="6.17" id="m16"><span
+class="header-section-number">6.17</span> 2025-11-20</h3>
+<p>Signification and deconstruction</p>
+<h4 data-number="6.17.1" id="required-15"><span
+class="header-section-number">6.17.1</span> Required</h4>
+<ul>
+<li>Poe, “Purloined Letter”</li>
+<li>Lacan, seminar on purloined letter</li>
+</ul>
+<h4 data-number="6.17.2" id="optional-15"><span
+class="header-section-number">6.17.2</span> Optional</h4>
+<h3 data-number="6.18" id="m17"><span
+class="header-section-number">6.18</span> 2025-11-25</h3>
+<p>Against interpretation</p>
+<h4 data-number="6.18.1" id="required-16"><span
+class="header-section-number">6.18.1</span> Required</h4>
+<ul>
+<li>Sontag</li>
+<li>“Building a Better Description”</li>
+</ul>
+<h4 data-number="6.18.2" id="optional-16"><span
+class="header-section-number">6.18.2</span> Optional</h4>
+<ul>
+<li>Felski</li>
+</ul>
+<h3 data-number="6.19" id="m18"><span
+class="header-section-number">6.19</span> 2025-12-02</h3>
+<p>What do we get out of interpretation?</p>
+<h4 data-number="6.19.1" id="required-17"><span
+class="header-section-number">6.19.1</span> Required</h4>
+<ul>
+<li>Robbins</li>
+<li>Guillory</li>
+</ul>
+<h4 data-number="6.19.2" id="optional-17"><span
+class="header-section-number">6.19.2</span> Optional</h4>
+<h3 data-number="6.20" id="m19"><span
+class="header-section-number">6.20</span> 2025-12-04</h3>
+<p>Distant reading and the future of reading</p>
+<h4 data-number="6.20.1" id="required-18"><span
+class="header-section-number">6.20.1</span> Required</h4>
+<ul>
+<li>Moretti, “Conjectures” excerpt</li>
+<li>Underwood Bamman gender</li>
+</ul>
+<h4 data-number="6.20.2" id="optional-18"><span
+class="header-section-number">6.20.2</span> Optional</h4>
+<h2 data-number="7" id="grades"><span
+class="header-section-number">7</span> Grades</h2>
+<h3 data-number="7.1" id="course"><span
+class="header-section-number">7.1</span> Course</h3>
+<table>
+<thead>
+<tr>
+<th>Element</th>
+<th>Weight</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Participation</td>
+<td>20%</td>
+</tr>
+<tr>
+<td>Reading Quizzes</td>
+<td>30%</td>
+</tr>
+<tr>
+<td>Essays</td>
+<td>50%</td>
+</tr>
+</tbody>
+</table>
+<h3 data-number="7.2" id="letters"><span
+class="header-section-number">7.2</span> Letters</h3>
+<table>
+<thead>
+<tr>
+<th>Letter</th>
+<th>Low</th>
+<th>High</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td>93%</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>A-</td>
+<td>90%</td>
+<td>92%</td>
+</tr>
+<tr>
+<td>B+</td>
+<td>88%</td>
+<td>89%</td>
+</tr>
+<tr>
+<td>B</td>
+<td>83%</td>
+<td>87%</td>
+</tr>
+<tr>
+<td>B-</td>
+<td>80%</td>
+<td>82%</td>
+</tr>
+<tr>
+<td>C+</td>
+<td>78%</td>
+<td>79%</td>
+</tr>
+<tr>
+<td>C</td>
+<td>73%</td>
+<td>77%</td>
+</tr>
+<tr>
+<td>C-</td>
+<td>70%</td>
+<td>72%</td>
+</tr>
+<tr>
+<td>D+</td>
+<td>68%</td>
+<td>69%</td>
+</tr>
+<tr>
+<td>D</td>
+<td>63%</td>
+<td>67%</td>
+</tr>
+<tr>
+<td>D-</td>
+<td>60%</td>
+<td>62%</td>
+</tr>
+<tr>
+<td>F</td>
+<td>0%</td>
+<td>59%</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>I round fractional grades</li>
+<li>I reserve the right to curve grades.</li>
+<li>I reserve the right to award an A+ for exceptional performance.</li>
+</ul>
+<h2 data-number="8" id="assignments"><span
+class="header-section-number">8</span> Assignments</h2>
+<h3 data-number="8.1" id="participation"><span
+class="header-section-number">8.1</span> Participation</h3>
+<ul>
+<li>Participation includes:
+<ul>
+<li>attendance</li>
+<li>preparation</li>
+<li>contribution during class</li>
+</ul></li>
+<li>“Contributing” takes many forms: responding to questions, asking
+questions, having good one-on-one discussions, active note-taking,
+etc.</li>
+</ul>
+<h4 data-number="8.1.1" id="absences"><span
+class="header-section-number">8.1.1</span> Absences</h4>
+<ul>
+<li>Everyone gets <strong>two</strong> unexcused absences.
+<ul>
+<li>Additional unexcused absences harm your participation grade.</li>
+</ul></li>
+<li>Email me before the class you will miss to request an excused
+absence.</li>
+</ul>
+<h3 data-number="8.2" id="reading-quizzes"><span
+class="header-section-number">8.2</span> Reading quizzes</h3>
+<ul>
+<li><strong>Reading is your most important assignment.</strong></li>
+<li>Reading quizzes should be relatively easy if you complete the
+reading.</li>
+<li>Reading quizzes cannot be retaken.</li>
+<li>If you have an excused absence, reading quizzes can be made up.</li>
+</ul>
+<h4 data-number="8.2.1" id="mutual-accountability"><span
+class="header-section-number">8.2.1</span> Mutual accountability</h4>
+<p>The purpose of reading quizzes is to create a culture of mutual
+accountability for doing the reading in this class. Doing the reading is
+necessary to be prepared for class. Reading quizzes promote this norm.
+But they are also unnecessary once there is a norm of completing the
+reading.</p>
+<p>So, I make you a special offer: <strong>If everyone averages 90% or
+better on the first five weeks of reading quizzes, I will not assign
+reading quizzes in the second half of the class.</strong> Everyone will
+receive an A for the reading quiz portion of your grade.</p>
+<h3 data-number="8.3" id="essays"><span
+class="header-section-number">8.3</span> Essays</h3>
+<p>tk</p>
+<h2 data-number="9" id="academic-misconduct"><span
+class="header-section-number">9</span> Academic Misconduct</h2>
+<p>In this course, I expect you to uphold <a
+href="https://intoosu.oregonstate.edu/osu-code-student-conduct">OSU’s
+Code of Student Conduct</a>, especially as it pertains to <a
+href="https://studentlife.oregonstate.edu/studentconduct/faculty-info">academic
+misconduct</a>.</p>
+<p>If I find that you have committed academic misconduct as defined in
+the documents above, you will fail the course.</p>
+<h3 data-number="9.1" id="generative-artificial-intelligence"><span
+class="header-section-number">9.1</span> Generative Artificial
+Intelligence</h3>
+<p><a
+href="https://en.wikipedia.org/wiki/Generative_artificial_intelligence">Generative
+Artificial Intelligence</a> (GenAI) such as OpenAI’s ChatGPT and
+Google’s Gemini can be useful for learning. But they can also answer
+queries incorrectly, such as when they <a
+href="https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence)">hallucinate</a>.</p>
+<p>GenAI has also made cheating easier than ever. Specifically,
+submitting GenAI output as if it were your own work is
+<strong>plagiarism</strong>.</p>
+<p>Below, I provide some examples of permitted and prohibited uses of
+GenAI in this class in the form of prompts. These lists are not
+exhaustive.</p>
+<p>If you would like to use GenAI for work in this course and your usage
+is not clearly covered by either the general rule or the examples below,
+ask me about how you would like to use it.</p>
+<h4 data-number="9.1.1" id="general-rule"><span
+class="header-section-number">9.1.1</span> General rule</h4>
+<ul>
+<li>Uses of GenAI that help you <em>do your own</em> thinking and
+writing are permitted.</li>
+<li>Uses of GenAI that <em>do your thinking and writing for you</em> are
+prohibited.</li>
+</ul>
+<h4 data-number="9.1.2" id="examples-of-permitted-prompts"><span
+class="header-section-number">9.1.2</span> Examples of permitted
+prompts</h4>
+<ul>
+<li>“I don’t understand why this word is in this sentence.”</li>
+<li>“I don’t understand the main idea of this paragraph. Can you say it
+in a different way?”</li>
+<li>“What is the difference between Concept X and Concept Y?”</li>
+<li>“I can’t figure out how to transition between two sections of this
+essay. Here are the ways that I’m considering. Can you help me decide
+which one would be best?”</li>
+</ul>
+<h4 data-number="9.1.3" id="examples-of-prohibited-prompts"><span
+class="header-section-number">9.1.3</span> Examples of prohibited
+prompts</h4>
+<ul>
+<li>“I didn’t budget enough time to do the reading. What is this
+book/article/chapter about?”</li>
+<li>“I like this quote. Write a paper about it.”</li>
+<li>“This essay is too hard to read. Can you rewrite the whole thing to
+in easier language?”</li>
+<li>“I can’t figure out how to transition between these two sections of
+this essay. How should I do it?”</li>
+</ul>
+<h2 data-number="10" id="communication"><span
+class="header-section-number">10</span> Communication</h2>
+<ul>
+<li>Before emailing me (or any of your professors), please check the
+syllabus to see if it answers your question.</li>
+<li>I respond to email within two business days.
+<ul>
+<li>If you have not received a response after two business days, please
+write me again.</li>
+</ul></li>
+<li>I recommend scheduling your emails to arrive early in the morning
+(e.g., 6 a.m.) for the fastest response.
+<ul>
+<li><a href="https://support.google.com/mail/answer/9214606">Gmail
+instructions</a></li>
+<li><a
+href="https://support.microsoft.com/en-us/office/delay-or-schedule-sending-email-messages-in-outlook-026af69f-c287-490a-a72f-6c65793744ba">Outlook
+instructions</a></li>
+</ul></li>
+</ul>
+<h2 data-number="11" id="equity"><span
+class="header-section-number">11</span> Equity</h2>
+<h3 data-number="11.1" id="accessibility"><span
+class="header-section-number">11.1</span> Accessibility</h3>
+<p>I strive to make this course accessible. If you encounter barriers to
+accessibility, please let me know as soon as possible.</p>
+<h3 data-number="11.2" id="health"><span
+class="header-section-number">11.2</span> Health</h3>
+<ul>
+<li>Please do not come to class if you are sick.</li>
+<li>If you are recovering from an illness, are no longer infectious, and
+are well enough to attend class, please be courteous and wear a mask,
+use hand sanitizer, etc.</li>
+</ul>
+<h3 data-number="11.3" id="disability-access-services"><span
+class="header-section-number">11.3</span> Disability Access
+Services</h3>
+<p><a
+href="https://ds.oregonstate.edu/student-handbook-page/das-student-handbook">Disability
+Access Services (DAS)</a> facilitates accommodations. If you have
+accommodations, please communicate with DAS and me about them as soon as
+possible.</p>
+<h3 data-number="11.4" id="counseling-and-psychological-services"><span
+class="header-section-number">11.4</span> Counseling and Psychological
+Services</h3>
+<p>Mental health is crucial for academic success. <a
+href="https://counseling.oregonstate.edu/students">Counseling &amp;
+Psychological Services (CAPS)</a> supports student mental health and
+academic success.</p>
+<h3 data-number="11.5" id="title-ix"><span
+class="header-section-number">11.5</span> Title IX</h3>
+<p>Oregon State University, in compliance with state and federal laws
+and regulations, including Title IX and its regulations, does not
+unlawfully discriminate and prohibits discrimination in any education
+program or activity that it operates, including in academic admissions
+and employment. The university prohibits unlawful discrimination on the
+basis of age, race, color, religion, sex, sexual orientation, gender
+identity or expression, national origin (including ancestry and
+ethnicity), citizenship, marital or family status, pregnancy or related
+conditions, disability, genetic information, protected veteran status /
+service in the uniformed service, or any other status protected by law
+or OSU policy.</p>
+<p>Inquiries about Title IX and other types of discrimination based on
+protected status may be referred to OSU’s Title IX Coordinator, the U.S.
+Department of Education’s Office for Civil Rights, or both. OSU’s Title
+IX Coordinator is the Executive Director of the Office of Equal
+Opportunity and Access (EOA). For information on OSU’s nondiscrimination
+policy and procedures, including how to report information about conduct
+that may constitute discrimination or make a complaint of sex
+discrimination under Title IX, contact EOA by phone: 541-737-3556,
+email: <a href="mailto:equal.opportunity@oregonstate.edu"
+class="email">equal.opportunity@oregonstate.edu</a>, mail/location: 330
+Snell Hall, Corvallis OR 97331, or visit <a
+href="https://eoa.oregonstate.edu/">EOA’s website</a>.</p>
+<h3 data-number="11.6" id="religious-observance"><span
+class="header-section-number">11.6</span> Religious Observance</h3>
+<p>Oregon State University provides reasonable accommodations for
+students’ sincerely held religious beliefs. It is incumbent on the
+student making the request to make the faculty member aware of the
+request as soon as possible prior to the need for the accommodation.</p>
+<p>For more information, see OSU’s website on <a
+href="https://eoa.oregonstate.edu/accommodations/religion">Accommodations
+and Nondiscrimination on the Basis of Religion</a>.</p>
+<h2 data-number="12" id="resources"><span
+class="header-section-number">12</span> Resources</h2>
+<p>Oregon State has many resources on campus that may help you
+succeed.</p>
+<h3 data-number="12.1" id="academic-success-center"><span
+class="header-section-number">12.1</span> Academic Success Center</h3>
+<p>The OSU <a href="https://success.oregonstate.edu/">Academic Success
+Center</a>… TK</p>
+<h4 data-number="12.1.1" id="writing-center"><span
+class="header-section-number">12.1.1</span> Writing Center</h4>
+<p>The <a href="https://writingcenter.oregonstate.edu/">OSU Writing
+Center</a>… TK</p>
+<p>It may be especially helpful for the essays in this course.</p>
+<h3 data-number="12.2" id="libraries"><span
+class="header-section-number">12.2</span> Libraries</h3>
+<p>I strongly encourage students to take advantage of <a
+href="https://library.oregonstate.edu/">the OSU Libraries</a> and their
+services to help with research in all of your classes.</p>
+<p>If you are wondering about the services that the libraries provide,
+<a href="https://answers.library.oregonstate.edu/">check the answers
+page</a>.</p>
+<h2 data-number="13" id="acknowledgments"><span
+class="header-section-number">13</span> Acknowledgments</h2>
+<p>The course builds on previous iterations of ENG 301 taught by TK.</p>
+<section id="footnotes" class="footnotes footnotes-end-of-document"
+role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1"><p><em>The <span>Sellout</span></em>, First edition (New
+York: <span>Farrar, Straus and Giroux</span>, 2015).<a href="#fnref1"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p><em>How to Read a Book</em>, Touchstone edition (New
+York: Simon &amp; Schuster, 2014).<a href="#fnref2"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p><span>“Good <span>Readers</span> and <span>Good
+Writers</span>,”</span> in <em>Lectures on Literature</em>, ed. Fredson
+Bowers, 1st ed (New York : [Columbia, S.C.]: Harcourt Brace Jovanovich ;
+B. Clark, 1980), 1–9.<a href="#fnref3" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p><span>“What’s <span>Happening</span> to
+<span>Reading</span>?”</span> <em>The New Yorker</em>, June 2025.<a
+href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p><em>Reading and the Making of Time in the Eighteenth
+Century</em> (Baltimore: Johns Hopkins University Press, 2018).<a
+href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p><em>On Close Reading</em> (Chicago: The University of
+Chicago Press, 2024).<a href="#fnref6" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn7"><p><span>“Introduction,”</span> in <em>Close Reading for
+the Twenty-First Century</em>, ed. Dan Sinykin and Johanna Winant,
+Skills for Scholars (Princeton: Princeton University Press, 2025),
+1–37.<a href="#fnref7" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn8"><p><em>On Close Reading</em>.<a href="#fnref8"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn9"><p><span>“Among <span>School Children</span>,”</span> in
+<em>The Poems</em>, ed. Richard J. Finneran, 2nd ed, The Collected Works
+of <span>W</span>.<span>B</span>. <span>Yeats</span>, v. 1 (New York:
+Scribner, 1997).<a href="#fnref9" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn10"><p><span>“The <span>Heresy</span> of
+<span>Paraphrase</span>,”</span> in <em>The Well Wrought Urn: Studies in
+the Structure of Poetry</em> (New York: <span>Reynold and
+Hitchcock</span>, 1947), 192–214.<a href="#fnref10"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+</body>
+</html>
