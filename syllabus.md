@@ -484,7 +484,7 @@ Oregon State has many resources on campus that may help you succeed.
 
 ### Academic Success Center
 
-The OSU [Academic Success Center](https://success.oregonstate.edu/)... TK
+The OSU [Academic Success Center](https://success.oregonstate.edu/) helps students learn how to learn and supports students in practicing skills and habits for academic success. Services include drop-in support, Academic Coaching, Supplemental Instruction (SI), workshops, and the Learning Corner. Even if you're not currently facing a challenge, these services can help you excel and achieve your goals. If you’re not sure which campus resources to explore, contact the Academic Success Center. While its programs are specific to academic support, the Academic Success Center is also committed to knowing the resources available to students and can refer students to partner units and offices.
 
 #### Writing Center
 
